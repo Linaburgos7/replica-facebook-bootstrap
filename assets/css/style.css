@@ -1,0 +1,46 @@
+.f1{
+    width: 419px;
+    padding-top: 85px;
+}
+img{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 240px;
+}
+.border {
+    border-radius: 10px;
+background: #fff;
+box-shadow:  35px 35px 70px #bebebe,
+             -35px -35px 70px #ffffff;
+}
+button{
+    cursor: pointer;
+}
+.boton1{
+    background-color: rgb(32, 110, 212);
+}
+.boton2 {
+    background-color: rgb(46, 175, 24);
+}
+.idiomas {
+    gap: 10px;
+    margin-left: 280px;
+    font-size: 13px;
+}
+.links, .linea, .meta {
+    gap: 8px;
+    margin-left: 280px;
+    font-size: 13px;
+    line-height: 1em;   
+}
+.borde1{
+    border: 1px solid #bebebe;
+}
+
+
