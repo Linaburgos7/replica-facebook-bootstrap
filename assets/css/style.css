@@ -1,18 +1,24 @@
+
+
 .f1{
     width: 419px;
     padding-top: 85px;
 }
-img{
-    margin-top: 100px;
-    margin-left: 200px;
+
+.titulo{
+    padding: 112px 20px 16px;
+    margin-top: 30px;
+    
 }
+
+
+
 h2 {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 32px;
-    width: 500px;
-    margin-left: 240px;
 }
+
 .border {
     border-radius: 10px;
 background: #fff;
@@ -30,17 +36,37 @@ button{
 }
 .idiomas {
     gap: 10px;
-    margin-left: 280px;
     font-size: 13px;
 }
 .links, .linea, .meta {
     gap: 8px;
-    margin-left: 280px;
     font-size: 13px;
     line-height: 1em;   
+}
+.links, .meta{
+   margin-left: 70px;
+   margin-right: 70px;
 }
 .borde1{
     border: 1px solid #bebebe;
 }
 
+@media (min-width: 1500px){
+    .titulo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 250px;
+        width: 30%;
+    }
+    .f1{
+       margin-left: 0;
+    }
+    
+}
 
+@media (max-width:767px){
+    .titulo{
+        margin: 20px;
+    }
+}
